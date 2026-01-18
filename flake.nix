@@ -1,5 +1,5 @@
 {
-  description = "Quarto slide development environment for Rail-oriented Programming talk";
+  description = "Quarto slide development environment";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
@@ -18,12 +18,14 @@
         "aarch64-darwin"
       ];
 
-      perSystem = { pkgs, ... }: {
-        devShells.default = pkgs.mkShell {
-          packages = with pkgs; [
-            quarto
-          ];
+      perSystem =
+        { pkgs, ... }:
+        {
+          devShells.default = pkgs.mkShell {
+            packages = with pkgs; [
+              quarto
+            ];
+          };
         };
-      };
     };
 }
