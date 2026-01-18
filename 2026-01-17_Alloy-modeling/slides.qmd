@@ -8,6 +8,7 @@ lang: ja
 format:
   revealjs:
     theme: [simple, solarized]
+    self-contained: true
     slide-number: true
     auto-stretch: true
     toc: false

@@ -7,7 +7,7 @@
 ## Build
 
 ```bash
-# HTML (Reveal.js)
+# HTML (Reveal.js, single file)
 quarto render slides.qmd --to revealjs
 ```
 
