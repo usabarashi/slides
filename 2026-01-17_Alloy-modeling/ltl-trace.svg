@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <defs>
+    <style>
+      .node { fill: #ffffff; stroke: #333333; stroke-width: 2; }
+      .edge { stroke: #666666; stroke-width: 2; fill: none; }
+      .path { stroke: #d24b32; stroke-width: 4; fill: none; }
+    </style>
+  </defs>
+
+  <!-- edges (binary tree, left-to-right) -->
+  <path class="edge" d="M60 130 L200 70" />
+  <path class="edge" d="M60 130 L200 190" />
+
+  <path class="edge" d="M200 70 L360 40" />
+  <path class="edge" d="M200 70 L360 100" />
+  <path class="edge" d="M200 190 L360 160" />
+  <path class="edge" d="M200 190 L360 220" />
+
+  <path class="edge" d="M360 40 L520 30" />
+  <path class="edge" d="M360 40 L520 70" />
+  <path class="edge" d="M360 100 L520 90" />
+  <path class="edge" d="M360 100 L520 130" />
+  <path class="edge" d="M360 160 L520 150" />
+  <path class="edge" d="M360 160 L520 190" />
+  <path class="edge" d="M360 220 L520 210" />
+  <path class="edge" d="M360 220 L520 250" />
+
+  <!-- highlighted path (one trace) -->
+  <path class="path" d="M60 130 L200 70 L360 100 L520 130" />
+
+  <!-- nodes -->
+  <circle class="node" cx="60" cy="130" r="12" />
+
+  <circle class="node" cx="200" cy="70" r="10" />
+  <circle class="node" cx="200" cy="190" r="10" />
+
+  <circle class="node" cx="360" cy="40" r="9" />
+  <circle class="node" cx="360" cy="100" r="9" />
+  <circle class="node" cx="360" cy="160" r="9" />
+  <circle class="node" cx="360" cy="220" r="9" />
+
+  <circle class="node" cx="520" cy="30" r="8" />
+  <circle class="node" cx="520" cy="70" r="8" />
+  <circle class="node" cx="520" cy="90" r="8" />
+  <circle class="node" cx="520" cy="130" r="8" />
+  <circle class="node" cx="520" cy="150" r="8" />
+  <circle class="node" cx="520" cy="190" r="8" />
+  <circle class="node" cx="520" cy="210" r="8" />
+  <circle class="node" cx="520" cy="250" r="8" />
+</svg>
