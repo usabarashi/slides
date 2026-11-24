@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" font-family="'Noto Sans JP','Hiragino Sans','Helvetica Neue',Arial,sans-serif">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#586e75" />
+  </marker>
+</defs>
+<rect x="20" y="20" width="360" height="470" rx="18" fill="#fbf7ea" stroke="#cfc6ad" stroke-width="2" />
+<text x="38" y="44" font-size="16" font-weight="700" fill="#8a8060">On-Premises LAN</text>
+<rect x="400" y="20" width="480" height="470" rx="18" fill="#fbf7ea" stroke="#cfc6ad" stroke-width="2" />
+<text x="418" y="44" font-size="16" font-weight="700" fill="#8a8060">Cloud Infra</text>
+<rect x="900" y="20" width="280" height="470" rx="18" fill="#fbf7ea" stroke="#cfc6ad" stroke-width="2" />
+<text x="918" y="44" font-size="16" font-weight="700" fill="#8a8060">Slack</text>
+<rect x="40" y="85" width="320" height="66" rx="12" fill="#eef2e3" stroke="#6b7a00" stroke-width="3" />
+<text x="200" y="115" text-anchor="middle" font-size="21" font-weight="700" fill="#6b7a00">ネットワーク機器</text>
+<text x="200" y="139" text-anchor="middle" font-size="13" fill="#586e75">router</text>
+<rect x="40" y="175" width="320" height="66" rx="12" fill="#f2f2f0" stroke="#9a9a9a" stroke-width="3" />
+<text x="200" y="205" text-anchor="middle" font-size="21" font-weight="700" fill="#9a9a9a">OTel Collector</text>
+<text x="200" y="229" text-anchor="middle" font-size="13" fill="#586e75">journald / syslog を受ける</text>
+<rect x="40" y="265" width="320" height="66" rx="12" fill="#dbeaf6" stroke="#268bd2" stroke-width="3" />
+<text x="200" y="295" text-anchor="middle" font-size="21" font-weight="700" fill="#268bd2">NixOS</text>
+<text x="200" y="319" text-anchor="middle" font-size="13" fill="#586e75">health / journald / Datadog Agent</text>
+<rect x="420" y="85" width="250" height="66" rx="12" fill="#f8e3d8" stroke="#cb4b16" stroke-width="3" />
+<text x="545" y="115" text-anchor="middle" font-size="19" font-weight="700" fill="#cb4b16">AWS</text>
+<text x="545" y="139" text-anchor="middle" font-size="13" fill="#586e75">SNS → Chatbot</text>
+<rect x="420" y="175" width="250" height="66" rx="12" fill="#f6ecd2" stroke="#b58900" stroke-width="3" />
+<text x="545" y="205" text-anchor="middle" font-size="20" font-weight="700" fill="#b58900">Google Cloud</text>
+<text x="545" y="229" text-anchor="middle" font-size="13" fill="#586e75">Cloud Logging</text>
+<rect x="700" y="175" width="160" height="66" rx="12" fill="#d6ece9" stroke="#2aa198" stroke-width="3" />
+<text x="780" y="205" text-anchor="middle" font-size="19" font-weight="700" fill="#2aa198">アラート</text>
+<text x="780" y="229" text-anchor="middle" font-size="13" fill="#586e75">severity >= ERROR</text>
+<rect x="420" y="265" width="250" height="66" rx="12" fill="#e4e3f4" stroke="#6c71c4" stroke-width="3" />
+<text x="545" y="295" text-anchor="middle" font-size="21" font-weight="700" fill="#6c71c4">Datadog</text>
+<text x="545" y="319" text-anchor="middle" font-size="13" fill="#586e75">metrics / monitors</text>
+<rect x="420" y="355" width="250" height="66" rx="12" fill="#f2f2f0" stroke="#9a9a9a" stroke-width="3" />
+<text x="545" y="393.76" text-anchor="middle" font-size="16" font-weight="700" fill="#9a9a9a">Other Services</text>
+<rect x="930" y="60" width="220" height="410" rx="14" fill="#dbeaf6" stroke="#268bd2" stroke-width="3" />
+<text x="1040" y="240" text-anchor="middle" font-size="24" font-weight="700" fill="#268bd2">Slack</text>
+<text x="1040" y="268" text-anchor="middle" font-size="13" fill="#586e75">#通知チャンネル</text>
+<path d="M 200 155 L 200 171" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<text x="236" y="171" text-anchor="start" font-size="13" fill="#586e75">syslog</text>
+<path d="M 200 261 L 200 245" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<text x="236" y="257" text-anchor="start" font-size="13" fill="#586e75">journald</text>
+<path d="M 364 208 L 416 208" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<path d="M 364 298 L 416 298" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<path d="M 674 208 L 696 208" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<path d="M 674 118 L 926 118" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<text x="800" y="106" text-anchor="middle" font-size="13" fill="#586e75">アラート通知</text>
+<path d="M 864 208 L 926 208" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<path d="M 674 298 L 926 298" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<text x="800" y="286" text-anchor="middle" font-size="13" fill="#586e75">アラート通知</text>
+<path d="M 674 388 L 926 388" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<text x="800" y="376" text-anchor="middle" font-size="13" fill="#586e75">アラート通知</text>
+</svg>

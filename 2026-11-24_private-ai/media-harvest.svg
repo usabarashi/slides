@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 424" width="1000" height="424" font-family="'Noto Sans JP','Hiragino Sans','Helvetica Neue',Arial,sans-serif">
+<defs>
+  <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#586e75" />
+  </marker>
+  <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#586e75" />
+  </marker>
+</defs>
+<rect x="30" y="120" width="170" height="100" rx="14" fill="#dbeaf6" stroke="#268bd2" stroke-width="3" />
+<text x="115" y="158" text-anchor="middle" font-size="19" font-weight="700" fill="#268bd2">ブラウザ</text><text x="115" y="184" text-anchor="middle" font-size="14" font-weight="400" fill="#586e75">Elm の SPA</text><rect x="270" y="90" width="280" height="160" rx="16" fill="#d6ece9" stroke="#2aa198" stroke-width="3" />
+<text x="410" y="128" text-anchor="middle" font-size="19" font-weight="700" fill="#2aa198">media-harvest</text><text x="410" y="154" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">Haskell（ Servant + Warp ）</text><text x="410" y="178" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">API と SPA を 1 プロセスで配る</text><text x="410" y="206" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">SQLite に番組と録音を持つ</text><text x="410" y="230" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">ffmpeg で変換・検証</text><rect x="620" y="48" width="340" height="54" rx="12" fill="#f6ecd2" stroke="#b58900" stroke-width="3" />
+<text x="650" y="73" text-anchor="start" font-size="17" font-weight="700" fill="#b58900">ラジオ</text><text x="650" y="93" text-anchor="start" font-size="12" font-weight="400" fill="#586e75">rajiru / radiko</text><path d="M 556 76 L 614 76" fill="none" stroke="#586e75" stroke-width="2.5" marker-end="url(#a)" />
+<rect x="620" y="110" width="340" height="54" rx="12" fill="#e4e3f4" stroke="#6c71c4" stroke-width="3" />
+<text x="650" y="135" text-anchor="start" font-size="17" font-weight="700" fill="#6c71c4">TV</text><text x="650" y="155" text-anchor="start" font-size="12" font-weight="400" fill="#586e75">mirakc</text><path d="M 556 138 L 614 138" fill="none" stroke="#586e75" stroke-width="2.5" marker-end="url(#a)" />
+<rect x="620" y="172" width="340" height="54" rx="12" fill="#eef2e3" stroke="#6b7a00" stroke-width="3" />
+<text x="650" y="197" text-anchor="start" font-size="17" font-weight="700" fill="#6b7a00">VOD</text><text x="650" y="217" text-anchor="start" font-size="12" font-weight="400" fill="#586e75">TVer / ニコニコ / ABEMA</text><path d="M 556 200 L 614 200" fill="none" stroke="#586e75" stroke-width="2.5" marker-end="url(#a)" />
+<rect x="620" y="234" width="340" height="54" rx="12" fill="#f2f2f0" stroke="#8a8a8a" stroke-width="3" />
+<text x="650" y="259" text-anchor="start" font-size="17" font-weight="700" fill="#8a8a8a">フィード</text><text x="650" y="279" text-anchor="start" font-size="12" font-weight="400" fill="#586e75">YouTube / Podcast</text><path d="M 556 262 L 614 262" fill="none" stroke="#586e75" stroke-width="2.5" marker-end="url(#a)" />
+<path d="M 204 160 L 264 160" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#a)" />
+<path d="M 264 186 L 204 186" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#a)" />
+<text x="234" y="148" text-anchor="middle" font-size="12" font-weight="400" fill="#586e75">API</text><rect x="30" y="302" width="940" height="50" rx="12" fill="#f7f4e9" stroke="#d9d2bd" stroke-width="2" />
+<text x="50" y="333" text-anchor="start" font-size="15" font-weight="600" fill="#586e75">チューナーは loopback のみ. 未知のソースは fail closed で受け付けない</text><text x="50" y="396" text-anchor="start" font-size="13" font-weight="700" fill="#8a8060">技術スタック</text><rect x="160" y="376" width="106" height="30" rx="15" fill="#f7f4e9" stroke="#cfc6ad" stroke-width="2" />
+<text x="213" y="396" text-anchor="middle" font-size="14" font-weight="600" fill="#586e75">Haskell</text><rect x="278" y="376" width="66" height="30" rx="15" fill="#f7f4e9" stroke="#cfc6ad" stroke-width="2" />
+<text x="311" y="396" text-anchor="middle" font-size="14" font-weight="600" fill="#586e75">Elm</text><rect x="356" y="376" width="76" height="30" rx="15" fill="#f7f4e9" stroke="#cfc6ad" stroke-width="2" />
+<text x="394" y="396" text-anchor="middle" font-size="14" font-weight="600" fill="#586e75">Rust</text><rect x="444" y="376" width="96" height="30" rx="15" fill="#f7f4e9" stroke="#cfc6ad" stroke-width="2" />
+<text x="492" y="396" text-anchor="middle" font-size="14" font-weight="600" fill="#586e75">SQLite</text><rect x="552" y="376" width="66" height="30" rx="15" fill="#f7f4e9" stroke="#cfc6ad" stroke-width="2" />
+<text x="585" y="396" text-anchor="middle" font-size="14" font-weight="600" fill="#586e75">Nix</text></svg>

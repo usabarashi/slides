@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" font-family="'Noto Sans JP','Hiragino Sans','Helvetica Neue',Arial,sans-serif">
+<defs>
+  <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#586e75" />
+  </marker>
+  <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#dc322f" />
+  </marker>
+</defs>
+<text x="30" y="24" font-size="13" font-weight="700" fill="#93a1a1">NixOS（ host configuration ）</text>
+<rect x="30" y="36" width="220" height="110" rx="14" fill="#e7efd2" stroke="#859900" stroke-width="3" />
+<text x="140" y="72" text-anchor="middle" font-size="18" font-weight="700" fill="#859900">NixOS host</text><text x="140" y="98" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">systemd timer 毎日 1 回</text><text x="140" y="122" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">narHash と kernel / initrd</text><rect x="300" y="36" width="260" height="110" rx="14" fill="#dbeaf6" stroke="#268bd2" stroke-width="3" />
+<text x="430" y="72" text-anchor="middle" font-size="18" font-weight="700" fill="#268bd2">narHash 比較</text><text x="430" y="98" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">GitHub の master と</text><text x="430" y="122" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">narHash を比べる</text><rect x="610" y="36" width="180" height="110" rx="14" fill="#e4e3f4" stroke="#6c71c4" stroke-width="3" />
+<text x="700" y="72" text-anchor="middle" font-size="16" font-weight="700" fill="#6c71c4">Datadog</text><text x="700" y="98" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">DogStatsD で</text><text x="700" y="122" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">service check を送る</text><rect x="840" y="36" width="130" height="110" rx="14" fill="#f8e0dd" stroke="#dc322f" stroke-width="3" />
+<text x="905" y="72" text-anchor="middle" font-size="18" font-weight="700" fill="#dc322f">Slack</text><text x="905" y="98" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">master より古い</text><text x="905" y="122" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">か不明なときだけ</text><path d="M 254 91 L 296 91" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#a)" />
+<text x="275" y="80" text-anchor="middle" font-size="12" font-weight="400" fill="#586e75">API</text><path d="M 564 91 L 606 91" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#a)" />
+<path d="M 794 91 L 836 91" fill="none" stroke="#dc322f" stroke-width="3" marker-end="url(#ar)" />
+<text x="30" y="198" font-size="13" font-weight="700" fill="#93a1a1">Terraform（ Cloud / SaaS ）</text>
+<rect x="30" y="212" width="220" height="110" rx="14" fill="#dbeaf6" stroke="#268bd2" stroke-width="3" />
+<text x="140" y="248" text-anchor="middle" font-size="18" font-weight="700" fill="#268bd2">GitHub Actions</text><text x="140" y="274" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">毎日 1 回</text><text x="140" y="298" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">手動でも起動できる</text><rect x="300" y="212" width="260" height="110" rx="14" fill="#e4e3f4" stroke="#6c71c4" stroke-width="3" />
+<text x="430" y="248" text-anchor="middle" font-size="18" font-weight="700" fill="#6c71c4">HCP Terraform API</text><text x="430" y="274" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">ワークスペースを列挙し</text><text x="430" y="298" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">plan-only run を作る</text><rect x="610" y="212" width="180" height="110" rx="14" fill="#d6ece9" stroke="#2aa198" stroke-width="3" />
+<text x="700" y="248" text-anchor="middle" font-size="16" font-weight="700" fill="#2aa198">plan（ 1 つずつ ）</text><text x="700" y="274" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">完了まで待つ</text><text x="700" y="298" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">state は変えない</text><rect x="840" y="212" width="130" height="110" rx="14" fill="#f8e0dd" stroke="#dc322f" stroke-width="3" />
+<text x="905" y="248" text-anchor="middle" font-size="18" font-weight="700" fill="#dc322f">Slack</text><text x="905" y="274" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">差分がある</text><text x="905" y="298" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">ときだけ</text><path d="M 254 267 L 296 267" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#a)" />
+<text x="275" y="256" text-anchor="middle" font-size="12" font-weight="400" fill="#586e75">API</text><path d="M 564 267 L 606 267" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#a)" />
+<path d="M 794 267 L 836 267" fill="none" stroke="#dc322f" stroke-width="3" marker-end="url(#ar)" />
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 630" width="1180" height="630" font-family="'Noto Sans JP','Hiragino Sans','Helvetica Neue',Arial,sans-serif">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#586e75" />
+  </marker>
+</defs>
+<rect x="30" y="50" width="470" height="330" rx="12" fill="#f7f4e9" stroke="#d9d2bd" stroke-width="2" />
+<text x="50" y="78" font-size="15" font-weight="700" fill="#8a8060" font-family="'SF Mono',Menlo,monospace">infrastructure / flake.nix</text>
+<line x1="46" y1="90" x2="484" y2="90" stroke="#d9d2bd" stroke-width="1.5" />
+<text x="50" y="116" font-size="14" fill="#3f4d52" font-weight="400" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">{</text>
+<text x="58.4" y="140" font-size="14" fill="#3f4d52" font-weight="400" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">inputs = {</text>
+<text x="66.8" y="164" font-size="14" fill="#9a9a8a" font-weight="400" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">nixpkgs.url = &quot;github:NixOS/nixpkgs&quot;;</text>
+<text x="66.8" y="188" font-size="14" fill="#268bd2" font-weight="700" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">app-a.url = &quot;github:example/app-a&quot;;</text>
+<text x="66.8" y="212" font-size="14" fill="#268bd2" font-weight="700" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">app-b.url = &quot;github:example/app-b&quot;;</text>
+<text x="66.8" y="236" font-size="14" fill="#268bd2" font-weight="700" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">app-c.url = &quot;github:example/app-c&quot;;</text>
+<text x="58.4" y="260" font-size="14" fill="#3f4d52" font-weight="400" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">};</text>
+<text x="58.4" y="292" font-size="14" fill="#3f4d52" font-weight="400" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">outputs = { self, nixpkgs, ... }@inputs: {</text>
+<text x="66.8" y="316" font-size="14" fill="#3f4d52" font-weight="400" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">nixosConfigurations.&lt;host&gt; = ...;</text>
+<text x="58.4" y="340" font-size="14" fill="#3f4d52" font-weight="400" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">};</text>
+<text x="50" y="364" font-size="14" fill="#3f4d52" font-weight="400" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">}</text>
+<rect x="540" y="50" width="610" height="330" rx="16" fill="#fbf7ea" stroke="#b9b096" stroke-width="2" stroke-dasharray="7 6" />
+<text x="558" y="76" font-size="15" font-weight="700" fill="#8a8060">Application のリポジトリ（ GitHub ）</text>
+<rect x="558" y="103" width="574" height="64" rx="10" fill="#ffffff" stroke="#6b7a00" stroke-width="2.5" />
+<text x="574" y="131" font-size="16" font-weight="700" fill="#6b7a00">app-a</text>
+<text x="574" y="154" font-size="13" fill="#586e75">flake.nix ・ package.nix ・ module.nix（ options を公開 ）</text>
+<rect x="558" y="178" width="574" height="64" rx="10" fill="#ffffff" stroke="#6b7a00" stroke-width="2.5" />
+<text x="574" y="206" font-size="16" font-weight="700" fill="#6b7a00">app-b</text>
+<text x="574" y="229" font-size="13" fill="#586e75">flake.nix ・ package.nix ・ module.nix（ options を公開 ）</text>
+<rect x="558" y="253" width="574" height="64" rx="10" fill="#ffffff" stroke="#6b7a00" stroke-width="2.5" />
+<text x="574" y="281" font-size="16" font-weight="700" fill="#6b7a00">app-c</text>
+<text x="574" y="304" font-size="13" fill="#586e75">flake.nix ・ package.nix ・ module.nix（ options を公開 ）</text>
+<path d="M 506 188 H 516" fill="none" stroke="#268bd2" stroke-width="2.5" />
+<path d="M 506 212 H 516" fill="none" stroke="#268bd2" stroke-width="2.5" />
+<path d="M 506 236 H 516" fill="none" stroke="#268bd2" stroke-width="2.5" />
+<path d="M 516 135 V 285" fill="none" stroke="#268bd2" stroke-width="2.5" />
+<path d="M 516 135 H 552" fill="none" stroke="#268bd2" stroke-width="2.5" marker-end="url(#arrow)" />
+<circle cx="516" cy="135" r="4" fill="#268bd2" />
+<path d="M 516 210 H 552" fill="none" stroke="#268bd2" stroke-width="2.5" marker-end="url(#arrow)" />
+<circle cx="516" cy="210" r="4" fill="#268bd2" />
+<path d="M 516 285 H 552" fill="none" stroke="#268bd2" stroke-width="2.5" marker-end="url(#arrow)" />
+<circle cx="516" cy="285" r="4" fill="#268bd2" />
+<rect x="30" y="410" width="1120" height="190" rx="14" fill="#d6ece9" stroke="#2aa198" stroke-width="3" />
+<text x="56" y="446" font-size="19" font-weight="700" fill="#2aa198">NixOS 側（ infrastructure ）で module のパラメーターを設定する</text>
+<rect x="56" y="462" width="400" height="122" rx="10" fill="#ffffff" stroke="#2aa198" stroke-width="2" opacity="0.9" />
+<text x="72" y="488" font-size="14" fill="#3f4d52" font-weight="400" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">services.app-a = {</text>
+<text x="88.8" y="514" font-size="14" fill="#268bd2" font-weight="700" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">enable = true;</text>
+<text x="88.8" y="536" font-size="14" fill="#268bd2" font-weight="700" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">port = 8080;</text>
+<text x="72" y="558" font-size="14" fill="#3f4d52" font-weight="400" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">};</text>
+<text x="484" y="488" font-size="15" fill="#586e75">module.nix が options を定義しているので, 有効化もパラメーターも NixOS 側で書ける</text>
+<text x="484" y="518" font-size="15" fill="#586e75">Application側は実装, NixOS 側は設定という分担になる</text>
+<text x="484" y="548" font-size="15" fill="#586e75">パラメーターを変えても, Applicationのコードは触らない</text>
+<text x="484" y="578" font-size="15" fill="#586e75">既定値も module.nix 側に置ける（ 公開ポート・保存先・ログ量など ）</text>
+<path d="M 265 384 V 404" fill="none" stroke="#586e75" stroke-width="2.5" marker-end="url(#arrow)" />
+</svg>

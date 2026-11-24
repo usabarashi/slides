@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 580" width="1180" height="580" font-family="'Noto Sans JP','Hiragino Sans','Helvetica Neue',Arial,sans-serif">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#586e75" />
+  </marker>
+</defs>
+<rect x="26" y="34" width="470" height="310" rx="12" fill="#f7f4e9" stroke="#d9d2bd" stroke-width="2" />
+<text x="46" y="62" font-size="15" font-weight="700" fill="#8a8060">usabarashi/nix-config</text>
+<text x="46" y="84" font-size="13" fill="#9a9a8a">GitHub のリポジトリ（ flake ）</text>
+<line x1="42" y1="96" x2="480" y2="96" stroke="#d9d2bd" stroke-width="1.5" />
+<text x="46" y="126" font-size="14" fill="#3f4d52" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">nix-config/</text>
+<text x="46" y="152" font-size="14" fill="#3f4d52" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">├── flake.nix・flake.lock</text>
+<text x="46" y="178" font-size="14" fill="#3f4d52" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">├── hosts/     端末ごとの構成</text>
+<text x="46" y="204" font-size="14" fill="#3f4d52" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">├── home/      ユーザー環境</text>
+<text x="46" y="230" font-size="14" fill="#3f4d52" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">├── modules/   共通設定</text>
+<text x="46" y="256" font-size="14" fill="#3f4d52" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">├── config/    dotfiles の実ファイル</text>
+<text x="46" y="282" font-size="14" fill="#3f4d52" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">├── packages/</text>
+<text x="46" y="308" font-size="14" fill="#3f4d52" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">└── .github/   CI（ flake check / SBOM ）</text>
+<rect x="560" y="34" width="594" height="310" rx="12" fill="#f7f4e9" stroke="#d9d2bd" stroke-width="2" />
+<text x="580" y="62" font-size="15" font-weight="700" fill="#8a8060">mac14-9・mac14-10</text>
+<text x="580" y="84" font-size="13" fill="#9a9a8a">同じリポジトリから, 端末ごとの構成を出す</text>
+<line x1="576" y1="96" x2="1138" y2="96" stroke="#d9d2bd" stroke-width="1.5" />
+<text x="580" y="126" font-size="13" font-weight="700" fill="#268bd2">home-manager（ ユーザー環境 ）</text>
+<text x="580" y="152" font-size="14" fill="#3f4d52" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">~/.config/zsh</text>
+<text x="580" y="178" font-size="14" fill="#3f4d52" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">~/.config/git/hooks</text>
+<text x="580" y="204" font-size="14" fill="#3f4d52" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">~/.config/nvim</text>
+<text x="580" y="230" font-size="14" fill="#3f4d52" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">~/.pi/agent/（ skills など ）</text>
+<text x="580" y="256" font-size="14" fill="#3f4d52" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">~/.config/karabiner</text>
+<text x="580" y="282" font-size="14" fill="#3f4d52" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">~/Applications</text>
+<text x="890" y="126" font-size="13" font-weight="700" fill="#6c71c4">nix-darwin（ macOS 側 ）</text>
+<text x="890" y="152" font-size="14" fill="#3f4d52">system.defaults（ 外観 ）</text>
+<text x="890" y="178" font-size="14" fill="#3f4d52">キー入力・24 時間表示</text>
+<text x="890" y="204" font-size="14" fill="#3f4d52">computerName = シリアル</text>
+<text x="890" y="230" font-size="14" fill="#3f4d52">launchd で nix.gc</text>
+<text x="890" y="256" font-size="14" fill="#3f4d52">ルート証明書の distrust</text>
+<path d="M 496 190 H 552" fill="none" stroke="#586e75" stroke-width="2.5" marker-end="url(#arrow)" />
+<rect x="26" y="362" width="1128" height="186" rx="14" fill="#d6ece9" stroke="#2aa198" stroke-width="3" />
+<text x="50" y="398" font-size="17" font-weight="700" fill="#2aa198">dotfiles は実ファイルのまま編集する</text>
+<text x="50" y="432" font-size="15" fill="#3f4d52">config/ は mkOutOfStoreSymlink で</text>
+<text x="50" y="458" font-size="15" fill="#3f4d52">ホームにリンクする</text>
+<text x="50" y="490" font-size="15" fill="#3f4d52">編集はリポジトリ側で完結する</text>
+<text x="420" y="398" font-size="17" font-weight="700" fill="#2aa198">適用は 1 コマンド</text>
+<text x="420" y="432" font-size="14" fill="#3f4d52" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">nix run .#mac14-9</text>
+<text x="420" y="458" font-size="15" fill="#3f4d52">→ darwin-rebuild switch</text>
+<text x="420" y="490" font-size="15" fill="#3f4d52">何度実行しても同じ状態になる</text>
+<text x="800" y="398" font-size="17" font-weight="700" fill="#2aa198">端末固有の差分は外に出す</text>
+<text x="800" y="432" font-size="14" fill="#3f4d52" font-family="'SF Mono',Menlo,'DejaVu Sans Mono',monospace">~/.config/nix-extra/（ git 管理外 ）</text>
+<text x="800" y="458" font-size="15" fill="#3f4d52">homeManagerModule / darwinModule</text>
+<text x="800" y="490" font-size="15" fill="#3f4d52">flake の入力に応じて読み込む</text>
+</svg>
