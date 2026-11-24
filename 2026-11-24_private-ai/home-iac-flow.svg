@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 300" width="1300" height="300" font-family="'Noto Sans JP','Hiragino Sans','Helvetica Neue',Arial,sans-serif">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#586e75" />
+  </marker>
+</defs>
+<rect x="40" y="100" width="200" height="90" rx="12" fill="#e8eef0" stroke="#586e75" stroke-width="3" />
+<text x="140" y="138" text-anchor="middle" font-size="18" font-weight="700" fill="#586e75">Terraform コード</text>
+<text x="140" y="164" text-anchor="middle" font-size="13" fill="#586e75">LAN 向け</text>
+<rect x="280" y="100" width="220" height="90" rx="12" fill="#d6ece9" stroke="#1f6f6a" stroke-width="3" />
+<text x="390" y="138" text-anchor="middle" font-size="18" font-weight="700" fill="#1f6f6a">Terraform Cloud</text>
+<text x="390" y="164" text-anchor="middle" font-size="13" fill="#586e75">agent 実行モード</text>
+<rect x="540" y="100" width="200" height="90" rx="12" fill="#d6ece9" stroke="#1f6f6a" stroke-width="3" />
+<text x="640" y="138" text-anchor="middle" font-size="17" font-weight="700" fill="#1f6f6a">tfc-agent</text>
+<text x="640" y="164" text-anchor="middle" font-size="13" fill="#586e75">LAN 内で実行</text>
+<rect x="780" y="100" width="240" height="90" rx="12" fill="#e6e6f3" stroke="#5b5fa8" stroke-width="3" />
+<text x="900" y="138" text-anchor="middle" font-size="18" font-weight="700" fill="#5b5fa8">独自の Provider</text>
+<text x="900" y="164" text-anchor="middle" font-size="13" fill="#586e75">apc / sei / synclayer</text>
+<rect x="1060" y="100" width="200" height="90" rx="12" fill="#eef2e3" stroke="#4f6b00" stroke-width="3" />
+<text x="1160" y="138" text-anchor="middle" font-size="18" font-weight="700" fill="#4f6b00">LAN 機器</text>
+<text x="1160" y="164" text-anchor="middle" font-size="13" fill="#586e75">UPS / gateway</text>
+<path d="M 244 145 L 274 145" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<path d="M 504 145 L 534 145" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<path d="M 744 145 L 774 145" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<path d="M 1024 145 L 1054 145" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<text x="1000" y="230" text-anchor="middle" font-size="14" fill="#586e75">API がない機器は HTML form / ローカル API を叩く</text>
+</svg>

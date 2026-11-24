@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 250" width="980" height="250" font-family="'Noto Sans JP','Hiragino Sans','Helvetica Neue',Arial,sans-serif">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#586e75" />
+  </marker>
+</defs>
+<rect x="20" y="12" width="940" height="232" rx="20" fill="#fbf7ea" stroke="#b9b096" stroke-width="2" stroke-dasharray="10 8" />
+<text x="42" y="40" text-anchor="start" font-size="16" font-weight="700" fill="#8a8060">Temporal のワークフロー（ security-review ）</text><text x="170" y="68" text-anchor="middle" font-size="14" font-weight="700" fill="#8a8a8a">決定的な処理</text><text x="480" y="66" text-anchor="middle" font-size="16" font-weight="700" fill="#2aa198">AI が担当</text><text x="790" y="68" text-anchor="middle" font-size="14" font-weight="700" fill="#8a8a8a">決定的な処理</text><rect x="60" y="78" width="220" height="116" rx="14" fill="#f2f2f0" stroke="#8a8a8a" stroke-width="3" />
+<text x="170" y="122" text-anchor="middle" font-size="20" font-weight="700" fill="#586e75">prepare</text><text x="170" y="148" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">clone / issue / baseline</text><text x="170" y="172" text-anchor="middle" font-size="13" font-weight="400" fill="#8a8a8a">入力を揃える</text><rect x="340" y="70" width="280" height="132" rx="14" fill="#d6ece9" stroke="#2aa198" stroke-width="4" />
+<text x="480" y="112" text-anchor="middle" font-size="23" font-weight="700" fill="#2aa198">review</text><text x="480" y="140" text-anchor="middle" font-size="14" font-weight="400" fill="#586e75">agent が解析して</text><text x="480" y="164" text-anchor="middle" font-size="14" font-weight="400" fill="#586e75">レポートを書く</text><text x="480" y="188" text-anchor="middle" font-size="12" font-weight="400" fill="#8a8a8a">agent / model はここで決まる</text><rect x="680" y="78" width="220" height="116" rx="14" fill="#f2f2f0" stroke="#8a8a8a" stroke-width="3" />
+<text x="790" y="122" text-anchor="middle" font-size="20" font-weight="700" fill="#586e75">finalize</text><text x="790" y="148" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">検証 / baseline と差分</text><text x="790" y="172" text-anchor="middle" font-size="13" font-weight="400" fill="#8a8a8a">Slack に通知する</text><path d="M 284 136 H 336" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<path d="M 624 136 H 676" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<text x="480" y="228" text-anchor="middle" font-size="14" font-weight="600" fill="#2aa198">入力: clone / issue / baseline　出力: レポート</text>
+</svg>

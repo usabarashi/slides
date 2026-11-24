@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 320" width="1300" height="320" font-family="'Noto Sans JP','Hiragino Sans','Helvetica Neue',Arial,sans-serif">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#586e75" />
+  </marker>
+</defs>
+<rect x="40" y="90" width="200" height="80" rx="12" fill="#f0f0ee" stroke="#8a8a8a" stroke-width="3" />
+<text x="140" y="124" text-anchor="middle" font-size="19" font-weight="700" fill="#8a8a8a">ソース</text>
+<text x="140" y="150" text-anchor="middle" font-size="13" fill="#586e75">RSS / HN / 論文 / SNS</text>
+<rect x="280" y="90" width="220" height="80" rx="12" fill="#dbeaf6" stroke="#268bd2" stroke-width="3" />
+<text x="390" y="124" text-anchor="middle" font-size="19" font-weight="700" fill="#268bd2">取得</text>
+<text x="390" y="150" text-anchor="middle" font-size="13" fill="#586e75">systemd timer</text>
+<rect x="540" y="90" width="220" height="80" rx="12" fill="#f6ecd2" stroke="#b58900" stroke-width="3" />
+<text x="650" y="124" text-anchor="middle" font-size="19" font-weight="700" fill="#b58900">SQLite</text>
+<text x="650" y="150" text-anchor="middle" font-size="13" fill="#586e75">既読・投稿済みを排除</text>
+<rect x="800" y="90" width="260" height="80" rx="12" fill="#e6e6f3" stroke="#5b5fa8" stroke-width="3" />
+<text x="930" y="124" text-anchor="middle" font-size="19" font-weight="700" fill="#5b5fa8">LLM</text>
+<text x="930" y="150" text-anchor="middle" font-size="13" fill="#586e75">要約・関連判定</text>
+<rect x="1100" y="90" width="180" height="80" rx="12" fill="#d6ece9" stroke="#1f6f6a" stroke-width="3" />
+<text x="1190" y="124" text-anchor="middle" font-size="19" font-weight="700" fill="#1f6f6a">Slack</text>
+<text x="1190" y="150" text-anchor="middle" font-size="13" fill="#586e75">通知</text>
+<path d="M 244 130 L 274 130" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<path d="M 504 130 L 534 130" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<path d="M 764 130 L 794 130" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<path d="M 1064 130 L 1094 130" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<text x="930" y="230" text-anchor="middle" font-size="14" fill="#586e75">Cloudflare Workers AI / さくらの AI Engine / Ollama</text>
+<text x="400" y="230" text-anchor="middle" font-size="14" fill="#586e75">同じ型を 5〜6 リポジトリで使い回す</text>
+</svg>

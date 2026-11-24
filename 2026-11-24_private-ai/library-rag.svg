@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330" font-family="'Noto Sans JP','Hiragino Sans','Helvetica Neue',Arial,sans-serif">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#586e75" />
+  </marker>
+</defs>
+<rect x="40" y="60" width="220" height="80" rx="12" fill="#f0f0ee" stroke="#8a8a8a" stroke-width="3" />
+<text x="150" y="94" text-anchor="middle" font-size="20" font-weight="700" fill="#8a8a8a">EPUB</text>
+<text x="150" y="120" text-anchor="middle" font-size="13" fill="#586e75">アップロード</text>
+<rect x="300" y="60" width="300" height="80" rx="12" fill="#dbeaf6" stroke="#268bd2" stroke-width="3" />
+<text x="450" y="94" text-anchor="middle" font-size="20" font-weight="700" fill="#268bd2">取り込み</text>
+<text x="450" y="120" text-anchor="middle" font-size="13" fill="#586e75">pandoc / 章分割</text>
+<rect x="640" y="60" width="320" height="80" rx="12" fill="#f6ecd2" stroke="#b58900" stroke-width="3" />
+<text x="800" y="94" text-anchor="middle" font-size="20" font-weight="700" fill="#b58900">SQLite</text>
+<text x="800" y="120" text-anchor="middle" font-size="13" fill="#586e75">本文（FTS5）+ ベクトル</text>
+<rect x="40" y="210" width="220" height="80" rx="12" fill="#d6ece9" stroke="#1f6f6a" stroke-width="3" />
+<text x="150" y="244" text-anchor="middle" font-size="18" font-weight="700" fill="#1f6f6a">Ollama（bge-m3）</text>
+<text x="150" y="270" text-anchor="middle" font-size="13" fill="#586e75">1024 次元</text>
+<rect x="300" y="210" width="300" height="80" rx="12" fill="#e6e6f3" stroke="#5b5fa8" stroke-width="3" />
+<text x="450" y="244" text-anchor="middle" font-size="20" font-weight="700" fill="#5b5fa8">ハイブリッド検索</text>
+<text x="450" y="270" text-anchor="middle" font-size="13" fill="#586e75">KNN + BM25 を RRF で統合</text>
+<rect x="640" y="210" width="320" height="80" rx="12" fill="#d6ece9" stroke="#1f6f6a" stroke-width="3" />
+<text x="800" y="244" text-anchor="middle" font-size="20" font-weight="700" fill="#1f6f6a">MCP → Agent</text>
+<text x="800" y="270" text-anchor="middle" font-size="13" fill="#586e75">回答生成は Agent 側</text>
+<path d="M 264 100 L 296 100" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<path d="M 604 100 L 636 100" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<path d="M 800 144 L 800 180 L 450 180 L 450 206" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<path d="M 264 250 L 296 250" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<path d="M 604 250 L 636 250" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<text x="800" y="305" text-anchor="middle" font-size="12" fill="#586e75">search_library / get_book / get_chunk_context / list_books</text>
+</svg>

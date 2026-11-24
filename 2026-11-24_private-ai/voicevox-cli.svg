@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 386" width="980" height="386" font-family="'Noto Sans JP','Hiragino Sans','Helvetica Neue',Arial,sans-serif">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#586e75" />
+  </marker>
+</defs>
+<rect x="40" y="55" width="250" height="110" rx="14" fill="#dbeaf6" stroke="#268bd2" stroke-width="3" />
+<text x="165" y="95" text-anchor="middle" font-size="21" font-weight="700" fill="#268bd2">AI Assistant</text><text x="165" y="122" text-anchor="middle" font-size="14" font-weight="400" fill="#586e75">Agent / MCP client</text><text x="165" y="145" text-anchor="middle" font-size="14" font-weight="400" fill="#586e75">日本語の音声合成を依頼</text><rect x="350" y="55" width="250" height="110" rx="14" fill="#f6ecd2" stroke="#b58900" stroke-width="3" />
+<text x="475" y="92" text-anchor="middle" font-size="18" font-weight="700" fill="#b58900">voicevox-mcp-server</text><text x="475" y="120" text-anchor="middle" font-size="14" font-weight="400" fill="#586e75">stdio / JSON-RPC</text><text x="475" y="143" text-anchor="middle" font-size="13" font-weight="400" fill="#586e75">stateless</text><rect x="660" y="42" width="290" height="136" rx="14" fill="#d6ece9" stroke="#2aa198" stroke-width="3" />
+<text x="805" y="80" text-anchor="middle" font-size="20" font-weight="700" fill="#2aa198">voicevox-daemon</text><text x="805" y="108" text-anchor="middle" font-size="15" font-weight="400" fill="#586e75">VOICEVOX Core で合成</text><text x="805" y="134" text-anchor="middle" font-size="14" font-weight="400" fill="#586e75">UNIX socket で待ち受け</text><text x="805" y="158" text-anchor="middle" font-size="14" font-weight="400" fill="#586e75">必要なときに自動起動</text><path d="M 294 110 H 346" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<path d="M 604 110 H 656" fill="none" stroke="#586e75" stroke-width="3" marker-end="url(#arrow)" />
+<rect x="660" y="196" width="290" height="46" rx="12" fill="#f2f2f0" stroke="#8a8a8a" stroke-width="2" />
+<text x="805" y="225" text-anchor="middle" font-size="14" font-weight="400" fill="#586e75">WAV（ speaker を選べる ）</text><path d="M 805 182 V 192" fill="none" stroke="#586e75" stroke-width="2.5" marker-end="url(#arrow)" />
+<rect x="40" y="262" width="910" height="50" rx="12" fill="#f7f4e9" stroke="#d9d2bd" stroke-width="2" />
+<text x="60" y="293" text-anchor="start" font-size="16" font-weight="600" fill="#586e75">CLI 単体でも使える（ voicevox-say ）. agent からは MCP 経由で呼ぶ</text><text x="40" y="356" text-anchor="start" font-size="13" font-weight="700" fill="#8a8060">技術スタック</text><rect x="150" y="336" width="72" height="30" rx="15" fill="#f7f4e9" stroke="#cfc6ad" stroke-width="2" />
+<text x="186" y="356" text-anchor="middle" font-size="14" font-weight="600" fill="#586e75">Rust</text><rect x="234" y="336" width="63" height="30" rx="15" fill="#f7f4e9" stroke="#cfc6ad" stroke-width="2" />
+<text x="265.5" y="356" text-anchor="middle" font-size="14" font-weight="600" fill="#586e75">Nix</text><rect x="309" y="336" width="153" height="30" rx="15" fill="#f7f4e9" stroke="#cfc6ad" stroke-width="2" />
+<text x="385.5" y="356" text-anchor="middle" font-size="14" font-weight="600" fill="#586e75">VOICEVOX Core</text><rect x="474" y="336" width="63" height="30" rx="15" fill="#f7f4e9" stroke="#cfc6ad" stroke-width="2" />
+<text x="505.5" y="356" text-anchor="middle" font-size="14" font-weight="600" fill="#586e75">MCP</text><rect x="549" y="336" width="135" height="30" rx="15" fill="#f7f4e9" stroke="#cfc6ad" stroke-width="2" />
+<text x="616.5" y="356" text-anchor="middle" font-size="14" font-weight="600" fill="#586e75">Quint + TLC</text></svg>
